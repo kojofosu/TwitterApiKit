@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 import com.mcdev.model.*
 import v2.model.Entity
 
-data class Tweet(var id: String, var text: String ){
+data class Tweet(var id: String? = null, var text: String? = null ){
 
     @SerializedName(value = "attachments")
     var attachments: Attachments? = null
