@@ -14,7 +14,7 @@ data class Place(@SerializedName(value = "full_name") var fullName: String? = nu
     var countryCode: String? = null
 
     @SerializedName(value = "geo")
-    var geo: com.mcdev.twitterapikit.`object`.Place.Geo? = null
+    var geo: Geo? = null
 
     @SerializedName(value = "name")
     var name: String? = null

@@ -13,19 +13,19 @@ data class Media(
     var height: Int = 0
 
     @SerializedName(value = "non_public_metrics")
-    var nonPublicMetrics: com.mcdev.twitterapikit.`object`.Media.NonPublicMetrics? = null
+    var nonPublicMetrics: NonPublicMetrics? = null
 
     @SerializedName(value = "organic_metrics")
-    var organicMetrics: com.mcdev.twitterapikit.`object`.Media.OrganicMetrics? = null
+    var organicMetrics: OrganicMetrics? = null
 
     @SerializedName(value = "preview_image_url")
     var previewImageUrl: String? = null
 
     @SerializedName(value = "promoted_metrics")
-    var promotedMetrics: com.mcdev.twitterapikit.`object`.Media.PromotedMetrics? = null
+    var promotedMetrics: PromotedMetrics? = null
 
     @SerializedName(value = "public_metrics")
-    var publicMetrics: com.mcdev.twitterapikit.`object`.Media.PublicMetrics? = null
+    var publicMetrics: PublicMetrics? = null
 
     @SerializedName(value = "width")
     var width: Int = 0

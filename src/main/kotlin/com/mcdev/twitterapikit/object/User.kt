@@ -1,7 +1,7 @@
 package com.mcdev.twitterapikit.`object`
 
 import com.google.gson.annotations.SerializedName
-import com.mcdev.model.*
+import com.mcdev.twitterapikit.model.*
 
 data class User(
     @SerializedName(value = "id") var id: String? = null,
@@ -15,7 +15,7 @@ data class User(
     var description: String? = null
 
     @SerializedName(value = "entities")
-    var entities: com.mcdev.twitterapikit.`object`.User.Entities? = null
+    var entities: Entities? = null
 
     @SerializedName(value = "pinned_tweet_id")
     var pinnedTweetId: String? = null
@@ -27,7 +27,7 @@ data class User(
     var protected: Boolean = false
 
     @SerializedName(value = "public_metrics")
-    var publicMetrics: com.mcdev.twitterapikit.`object`.User.PublicMetrics? = null
+    var publicMetrics: PublicMetrics? = null
 
     @SerializedName(value = "url")
     var url: String? =  null
@@ -36,7 +36,7 @@ data class User(
     var verified: Boolean = false
 
     @SerializedName(value = "withheld")
-    var withheld: com.mcdev.twitterapikit.`object`.User.Withheld? = null
+    var withheld: Withheld? = null
 
     data class Withheld(@SerializedName(value = "copyright") var copyright: Boolean = false, ){
         @SerializedName(value = "country_codes") var countryCodes: Array<String>? = null
@@ -44,26 +44,26 @@ data class User(
 
     class Entities{
         @SerializedName(value = "url")
-        var url: com.mcdev.twitterapikit.model.Urls? = null
+        var url: Urls? = null
 
         @SerializedName(value = "description")
-        var description: com.mcdev.twitterapikit.`object`.User.Entities.Description? = null
+        var description: Description? = null
 
         class Description {
             @SerializedName(value = "annotations")
-            var annotations: Array<com.mcdev.twitterapikit.model.Annotations>? = null
+            var annotations: Array<Annotations>? = null
 
             @SerializedName(value = "cashtags")
-            var cashtags: Array<com.mcdev.twitterapikit.model.Cashtags>? = null
+            var cashtags: Array<Cashtags>? = null
 
             @SerializedName(value = "hashtags")
-            var hashtags: Array<com.mcdev.twitterapikit.model.Hashtags>? = null
+            var hashtags: Array<Hashtags>? = null
 
             @SerializedName(value = "mentions")
-            var mentions: Array<com.mcdev.twitterapikit.model.Mentions>? = null
+            var mentions: Array<Mentions>? = null
 
             @SerializedName(value = "urls")
-            var urls: Array<com.mcdev.twitterapikit.model.Urls>? = null
+            var urls: Array<Urls>? = null
         }
     }
 

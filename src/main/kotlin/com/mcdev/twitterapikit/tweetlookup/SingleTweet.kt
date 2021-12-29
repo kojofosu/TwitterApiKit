@@ -4,6 +4,6 @@ import com.mcdev.twitterapikit.`object`.Tweet
 import com.mcdev.twitterapikit.model.Errors
 
 class SingleTweet {
-    var data: com.mcdev.twitterapikit.`object`.Tweet? = null
-    var errors: Array<com.mcdev.twitterapikit.model.Errors>? = null
+    var data: Tweet? = null
+    var errors: Array<Errors>? = null
 }

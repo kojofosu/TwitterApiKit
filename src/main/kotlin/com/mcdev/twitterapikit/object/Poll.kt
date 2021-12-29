@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 
 data class Poll(@SerializedName(value = "id") var id: String? = null){
     @SerializedName(value = "options")
-    var options: Array<com.mcdev.twitterapikit.`object`.Poll.Options>? = null
+    var options: Array<Options>? = null
 
     @SerializedName(value ="duration_minutes")
     var duration: Int = 0

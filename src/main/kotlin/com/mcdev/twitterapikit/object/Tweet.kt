@@ -1,19 +1,18 @@
 package com.mcdev.twitterapikit.`object`
 
 import com.google.gson.annotations.SerializedName
-import com.mcdev.model.*
-import com.mcdev.twitterapikit.model.Entity
+import com.mcdev.twitterapikit.model.*
 
 data class Tweet(var id: String? = null, var text: String? = null ){
 
     @SerializedName(value = "attachments")
-    var attachments: com.mcdev.twitterapikit.`object`.Tweet.Attachments? = null
+    var attachments: Attachments? = null
 
     @SerializedName(value = "author_id")
     var authorId: String? = null
 
     @SerializedName(value = "context_annotations")
-    var contextAnnotations: List<com.mcdev.twitterapikit.`object`.Tweet.ContextAnnotations>? = null
+    var contextAnnotations: List<ContextAnnotations>? = null
 
     @SerializedName(value = "conversation_id")
     var conversationId: String? = null
@@ -22,10 +21,10 @@ data class Tweet(var id: String? = null, var text: String? = null ){
     var createdAt: String? = null
 
     @SerializedName(value = "entities")
-    var entities: com.mcdev.twitterapikit.`object`.Tweet.Entities? = null
+    var entities: Entities? = null
 
     @SerializedName(value = "geo")
-    var geo: com.mcdev.twitterapikit.`object`.Tweet.Geo? = null
+    var geo: Geo? = null
 
     @SerializedName(value = "in_reply_to_user_id")
     var inReplyToUserId: String? = null
@@ -34,22 +33,22 @@ data class Tweet(var id: String? = null, var text: String? = null ){
     var lang: String? = null
 
     @SerializedName(value = "non_public_metrics")
-    var nonPublicMetrics: com.mcdev.twitterapikit.`object`.Tweet.NonPublicMetrics? = null
+    var nonPublicMetrics: NonPublicMetrics? = null
 
     @SerializedName(value = "organic_metrics")
-    var organicMetrics: com.mcdev.twitterapikit.`object`.Tweet.OrganicMetrics? = null
+    var organicMetrics: OrganicMetrics? = null
 
     @SerializedName(value = "possibly_sensitive")
     var possiblySensitive: Boolean = false
 
     @SerializedName(value = "promoted_metrics")
-    var promotedMetrics: com.mcdev.twitterapikit.`object`.Tweet.PromotedMetrics? = null
+    var promotedMetrics: PromotedMetrics? = null
 
     @SerializedName(value = "public_metrics")
-    var publicMetrics: com.mcdev.twitterapikit.`object`.Tweet.PublicMetrics? = null
+    var publicMetrics: PublicMetrics? = null
 
     @SerializedName(value = "referenced_tweets")
-    var referencedTweets: Array<com.mcdev.twitterapikit.`object`.Tweet.ReferencedTweets>? = null
+    var referencedTweets: Array<ReferencedTweets>? = null
 
     @SerializedName(value = "reply_settings")
     var replySettings: String? = null
@@ -58,7 +57,7 @@ data class Tweet(var id: String? = null, var text: String? = null ){
     var source: String? = null
 
     @SerializedName(value = "withheld")
-    var withheld: com.mcdev.twitterapikit.`object`.Tweet.Withheld? = null
+    var withheld: Withheld? = null
 
     data class Attachments(@SerializedName(value = "poll_ids") var pollIds: List<String>? = null,
                       @SerializedName(value = "media_keys") var mediaKeys: List<String>? = null
@@ -66,30 +65,30 @@ data class Tweet(var id: String? = null, var text: String? = null ){
 
     class ContextAnnotations {
         @SerializedName(value = "domain")
-        var domain: com.mcdev.twitterapikit.model.Domain? = null
+        var domain: Domain? = null
 
         @SerializedName(value = "entity")
-        var entity: com.mcdev.twitterapikit.model.Entity? = null
+        var entity: Entity? = null
     }
 
     class Entities{
         @SerializedName(value = "annotations")
-        var annotations: Array<com.mcdev.twitterapikit.model.Annotations>? = null
+        var annotations: Array<Annotations>? = null
 
         @SerializedName(value = "cashtags")
-        var cashtags: Array<com.mcdev.twitterapikit.model.Cashtags>? = null
+        var cashtags: Array<Cashtags>? = null
 
         @SerializedName(value = "hashtags")
-        var hashtags: Array<com.mcdev.twitterapikit.model.Hashtags>? = null
+        var hashtags: Array<Hashtags>? = null
 
         @SerializedName(value = "mentions")
-        var mentions: Array<com.mcdev.twitterapikit.model.Mentions>? = null
+        var mentions: Array<Mentions>? = null
 
         @SerializedName(value = "urls")
-        var urls: Array<com.mcdev.twitterapikit.model.Urls>? = null
+        var urls: Array<Urls>? = null
     }
 
-    data class Geo(@SerializedName(value = "coordinates") var coordinates: com.mcdev.twitterapikit.`object`.Tweet.Geo.Coordinates? = null,
+    data class Geo(@SerializedName(value = "coordinates") var coordinates: Coordinates? = null,
                    @SerializedName(value = "place_id") var placeId: String? = null
     )
     {
