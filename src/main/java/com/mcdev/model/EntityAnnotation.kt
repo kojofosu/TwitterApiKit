@@ -1,4 +1,4 @@
-package v2.model
+package com.mcdev.model
 
 class EntityAnnotation{
     val start: Int = 0

@@ -1,4 +1,4 @@
-package v2.field
+package com.mcdev.field
 
 /**
  * List of fields for the media object.

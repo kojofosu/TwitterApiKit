@@ -1,9 +1,10 @@
 package com.mcdev.tweetlookup
 
-import v2.`object`.Tweet
-import com.mcdev.model.Errors
 
-class SingleTweetUserContext {
-    var data: Tweet? = null
+import com.mcdev.model.Errors
+import com.mcdev.`object`.Tweet
+
+class MultipleTweets {
+    var data: Array<Tweet>? = null
     var errors: Array<Errors>? = null
 }

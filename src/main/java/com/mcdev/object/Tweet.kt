@@ -1,8 +1,8 @@
-package v2.`object`
+package com.mcdev.`object`
 
 import com.google.gson.annotations.SerializedName
 import com.mcdev.model.*
-import v2.model.Entity
+import com.mcdev.model.Entity
 
 data class Tweet(var id: String? = null, var text: String? = null ){
 

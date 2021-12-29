@@ -1,4 +1,4 @@
-package v2.field
+package com.mcdev.field
 
 /**
  * List of fields from the Space object you want to return from your request.*/

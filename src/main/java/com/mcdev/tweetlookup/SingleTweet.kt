@@ -1,6 +1,6 @@
 package com.mcdev.tweetlookup
 
-import v2.`object`.Tweet
+import com.mcdev.`object`.Tweet
 import com.mcdev.model.Errors
 
 class SingleTweet {

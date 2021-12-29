@@ -1,4 +1,4 @@
-package v2.`object`
+package com.mcdev.`object`
 
 import com.google.gson.annotations.SerializedName
 
