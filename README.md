@@ -6,6 +6,8 @@ Twitter's API v2 Objectified. This will save you time from creating data objects
 
 ![twitterapikitdemo](https://user-images.githubusercontent.com/20203694/147694414-4de8935d-e576-4978-80b6-122d65c73ad6.gif)
 
+### 📙 [Documentation](https://kojofosu.github.io/TwitterApiKit/documentation/dokka/index.html)
+
 ## LICENSE
 ```
    Copyright 2021 KOJO FOSU BEMPA EDUE
