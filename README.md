@@ -20,7 +20,7 @@ allprojects {
 Step 2: Add the dependency
 ```gradle
 dependencies {
-    implementation 'com.github.kojofosu:TwitterApiKit:${latest.version}'
+    implementation 'com.github.kojofosu:TwitterApiKit:${twitterapikit.version}'
 }	
 ```
 
@@ -40,7 +40,7 @@ Step 2: Add the dependency
 <dependency>
     <groupId>com.github.kojofosu</groupId>
     <artifactId>TwitterApiKit</artifactId>
-    <version>0.0.1</version>
+    <version>${twitterapikit.version}</version>
 </dependency>
 ```
 
