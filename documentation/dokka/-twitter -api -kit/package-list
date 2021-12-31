@@ -169,6 +169,16 @@ $dokka.location:com.mcdev.twitterapikit.model/Urls/title/#/PointingToDeclaration
 $dokka.location:com.mcdev.twitterapikit.model/Urls/unwoundUrl/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-urls/unwound-url.html
 $dokka.location:com.mcdev.twitterapikit.model/Urls/url/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-urls/url.html
 $dokka.location:com.mcdev.twitterapikit.object////PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/index.html
+$dokka.location:com.mcdev.twitterapikit.object/List///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-list/index.html
+$dokka.location:com.mcdev.twitterapikit.object/List/List/#kotlin.String?#kotlin.String?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-list/-list.html
+$dokka.location:com.mcdev.twitterapikit.object/List/createdAt/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-list/created-at.html
+$dokka.location:com.mcdev.twitterapikit.object/List/description/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-list/description.html
+$dokka.location:com.mcdev.twitterapikit.object/List/followerCount/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-list/follower-count.html
+$dokka.location:com.mcdev.twitterapikit.object/List/id/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-list/id.html
+$dokka.location:com.mcdev.twitterapikit.object/List/memberCount/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-list/member-count.html
+$dokka.location:com.mcdev.twitterapikit.object/List/name/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-list/name.html
+$dokka.location:com.mcdev.twitterapikit.object/List/ownerId/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-list/owner-id.html
+$dokka.location:com.mcdev.twitterapikit.object/List/private/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-list/private.html
 $dokka.location:com.mcdev.twitterapikit.object/Media.NonPublicMetrics///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-media/-non-public-metrics/index.html
 $dokka.location:com.mcdev.twitterapikit.object/Media.NonPublicMetrics/NonPublicMetrics/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-media/-non-public-metrics/-non-public-metrics.html
 $dokka.location:com.mcdev.twitterapikit.object/Media.NonPublicMetrics/playback0Count/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-media/-non-public-metrics/playback0-count.html

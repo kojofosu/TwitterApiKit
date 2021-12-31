@@ -2,6 +2,7 @@ package com.mcdev.twitterapikit.`object`
 
 import com.google.gson.annotations.SerializedName
 import com.mcdev.twitterapikit.model.*
+import kotlin.collections.List
 
 /**
  * Tweets are the basic building block of all things Twitter.
