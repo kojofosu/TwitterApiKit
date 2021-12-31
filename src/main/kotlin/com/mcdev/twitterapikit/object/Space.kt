@@ -10,7 +10,7 @@ data class Space(var id: String? = null, var state: String? = null) {
     var creatorId: String? = null
 
     @SerializedName("host_ids")
-    var hostIds: List<String>? = null
+    var hostIds: Array<String>? = null
 
     @SerializedName("lang")
     var lang: String? = null
@@ -19,7 +19,7 @@ data class Space(var id: String? = null, var state: String? = null) {
     var isTicketed: Boolean = false
 
     @SerializedName("invited_user_ids")
-    var invitedUserIds: List<String>? = null
+    var invitedUserIds: Array<String>? = null
 
     @SerializedName("participant_count")
     var participantCount: Int = 0
@@ -28,7 +28,7 @@ data class Space(var id: String? = null, var state: String? = null) {
     var scheduledStart: String? = null
 
     @SerializedName("speaker_ids")
-    var speakerIds: List<String>? = null
+    var speakerIds: Array<String>? = null
 
     @SerializedName("started_at")
     var startedAt: String? = null
