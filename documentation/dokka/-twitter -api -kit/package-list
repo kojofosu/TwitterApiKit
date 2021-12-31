@@ -358,6 +358,7 @@ $dokka.location:com.mcdev.twitterapikit.object/User/createdAt/#/PointingToDeclar
 $dokka.location:com.mcdev.twitterapikit.object/User/description/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-user/description.html
 $dokka.location:com.mcdev.twitterapikit.object/User/entities/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-user/entities.html
 $dokka.location:com.mcdev.twitterapikit.object/User/id/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-user/id.html
+$dokka.location:com.mcdev.twitterapikit.object/User/location/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-user/location.html
 $dokka.location:com.mcdev.twitterapikit.object/User/name/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-user/name.html
 $dokka.location:com.mcdev.twitterapikit.object/User/pinnedTweetId/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-user/pinned-tweet-id.html
 $dokka.location:com.mcdev.twitterapikit.object/User/profileImageUrl/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-user/profile-image-url.html
