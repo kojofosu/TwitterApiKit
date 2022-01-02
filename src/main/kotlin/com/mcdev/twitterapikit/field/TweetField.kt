@@ -26,6 +26,6 @@ enum class TweetField(val value: String) {
     /*OAuth1.0a User Context authorization required if any of the following fields are included in the request*/
     NON_PUBLIC_METRICS("non_public_metrics"),
     ORGANIC_METRICS("organic_metrics"),
-    POSSIBLY_SENSITIVE(""),
+    POSSIBLY_SENSITIVE("possibly_sensitive"),
     PROMOTED_METRICS("promoted_metrics"),
 }
