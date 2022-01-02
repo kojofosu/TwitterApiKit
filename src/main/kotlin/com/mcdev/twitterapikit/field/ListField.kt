@@ -1,5 +1,7 @@
 package com.mcdev.twitterapikit.field
 
+/**
+ * List of fields from the List object you want to return from your request.*/
 enum class ListField(val value: String) {
     /*default values*/
     ID("id"),
