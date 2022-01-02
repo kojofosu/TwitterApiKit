@@ -9,7 +9,7 @@ enum class MediaField(val value: String) {
         TYPE("type"),
 
         /*Allowed Values*/
-        DURATION("duration_ms"),
+        DURATION_MS("duration_ms"),
         HEIGHT("height"),
         PREVIEW_IMAGE_URL("preview_image_url"),
         PROMOTED_METRICS("promoted_metrics"),
