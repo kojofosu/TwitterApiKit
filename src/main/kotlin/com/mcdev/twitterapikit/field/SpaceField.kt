@@ -13,11 +13,13 @@ enum class SpaceField(val value: String) {
     CREATOR_ID("creator_id"),
     LANG("lang"),
     INVITED_USER_IDS("invited_user_ids"),
-    PARTICIPANT_COUNT("participant_count"),
     SPEAKER_IDS("speaker_ids"),
     STARTED_AT("started_at"),
     TITLE("title"),
     UPDATED_AT("updated_at"),
     SCHEDULED_START("scheduled_start"),
-    IS_TICKETED("is_ticketed")
+    IS_TICKETED("is_ticketed"),
+    PARTICIPANTS("participants,"),
+    ENDED_AT("ended_at"),
+    TOPIC_IDS("topic_ids")
 }
