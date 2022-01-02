@@ -1,11 +1,10 @@
-package com.mcdev.twitterapikit.field
+package com.mcdev.twitterapikit.expansion
 
 /**
- * List of fields to expand.
  * Expansions enable requests to expand an ID into a full object in the includes response object.
  * */
-enum class Expansions(val value: String) {
-    ATTACHMENTS_POLL_IDS("attachments.poll_ids"),
+enum class TimelinesExpansion(val value: String) {
+    ATTACHMENTS_POLL_ID("attachments.poll_ids"),
     ATTACHMENTS_MEDIA_KEYS("attachments.media_keys"),
     AUTHOR_ID("author_id"),
     GEO_PLACE_ID("geo.place_id"),
