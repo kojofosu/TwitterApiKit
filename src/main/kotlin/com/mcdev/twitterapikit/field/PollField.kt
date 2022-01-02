@@ -9,7 +9,7 @@ enum class PollField(val value: String) {
     OPTIONS("options"),
 
     /*Allowed Values*/
-    DURATION("duration_minutes"),
+    DURATION_MINUTES("duration_minutes"),
     END_DATETIME("end_datetime"),
     VOTING_STATUS("voting_status")
 }
