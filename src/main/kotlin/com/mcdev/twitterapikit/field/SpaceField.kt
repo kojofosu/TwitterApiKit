@@ -19,7 +19,7 @@ enum class SpaceField(val value: String) {
     UPDATED_AT("updated_at"),
     SCHEDULED_START("scheduled_start"),
     IS_TICKETED("is_ticketed"),
-    PARTICIPANTS("participants,"),
+    PARTICIPANTS("participants"),
     ENDED_AT("ended_at"),
     TOPIC_IDS("topic_ids")
 }
