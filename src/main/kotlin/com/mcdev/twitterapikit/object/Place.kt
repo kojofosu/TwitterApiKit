@@ -34,7 +34,7 @@ data class Place(
     /**
      * Returns the identifiers of known places that contain the referenced place.*/
     @SerializedName(value = "contained_within")
-    var containedWithin: Array<String>? = null
+    var containedWithin: ArrayList<String>? = null
 
     /**
      * The full-length name of the country this place belongs to.
@@ -104,7 +104,7 @@ data class Place(
         var type: String? = null
 
         @SerializedName(value = "bbox")
-        var bbox: Array<Double>? = null
+        var bbox: ArrayList<Double>? = null
 
         @SerializedName(value = "properties")
         var properties: String? = null

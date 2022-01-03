@@ -74,7 +74,7 @@ data class Space(
      * Expand User objects, understand engagement.
      */
     @SerializedName("host_ids")
-    var hostIds: Array<String>? = null
+    var hostIds: ArrayList<String>? = null
 
     /**
      * Language of the Space, if detected by Twitter. Returned as a BCP47 language tag.
@@ -113,7 +113,7 @@ data class Space(
 
      */
     @SerializedName("invited_user_ids")
-    var invitedUserIds: Array<String>? = null
+    var invitedUserIds: ArrayList<String>? = null
 
     /**
      * The current number of users in the Space, including Hosts and Speakers.
@@ -153,7 +153,7 @@ data class Space(
      *
      * Expand User objects, understand engagement.*/
     @SerializedName("speaker_ids")
-    var speakerIds: Array<String>? = null
+    var speakerIds: ArrayList<String>? = null
 
     /**
      *Indicates the actual start time of a Space.
@@ -190,7 +190,7 @@ data class Space(
      *
      * Determine the title of a Space, understand referenced keywords, hashtags, and mentions.*/
     @SerializedName(value = "topic_ids")
-    var topicIds: Array<String>? = null
+    var topicIds: ArrayList<String>? = null
 
     /**
      * Specifies the date and time of the last update to any of the Space's metadata, such as its title or scheduled time.

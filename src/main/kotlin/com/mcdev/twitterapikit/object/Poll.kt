@@ -35,7 +35,7 @@ data class Poll(
      *  ]
      * ```*/
     @SerializedName(value = "options")
-    var options: Array<Options>? = null
+    var options: ArrayList<Options>? = null
 
     /**
      *Specifies the total duration of this poll.

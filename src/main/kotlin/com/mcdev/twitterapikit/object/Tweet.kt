@@ -118,7 +118,7 @@ data class Tweet(
      *
      * Entity recognition/extraction, topical analysis */
     @SerializedName(value = "context_annotations")
-    var contextAnnotations: Array<ContextAnnotations>? = null
+    var contextAnnotations: ArrayList<ContextAnnotations>? = null
 
     /**
      * The Tweet ID of the original Tweet of the conversation (which includes direct replies, replies of replies).
@@ -330,7 +330,7 @@ data class Tweet(
      * This field can be used to understand conversational aspects of retweets etc.
      */
     @SerializedName(value = "referenced_tweets")
-    var referencedTweets: Array<ReferencedTweets>? = null
+    var referencedTweets: ArrayList<ReferencedTweets>? = null
 
     /**
      * Shows you who can reply to a given Tweet. Fields returned are "everyone", "mentioned_users", and "followers".
@@ -373,8 +373,8 @@ data class Tweet(
     @SerializedName(value = "withheld")
     var withheld: Withheld? = null
 
-    data class Attachments(@SerializedName(value = "poll_ids") var pollIds: List<String>? = null,
-                      @SerializedName(value = "media_keys") var mediaKeys: List<String>? = null
+    data class Attachments(@SerializedName(value = "poll_ids") var pollIds: ArrayList<String>? = null,
+                      @SerializedName(value = "media_keys") var mediaKeys: ArrayList<String>? = null
     )
 
     class ContextAnnotations {
@@ -387,19 +387,19 @@ data class Tweet(
 
     class Entities{
         @SerializedName(value = "annotations")
-        var annotations: Array<Annotations>? = null
+        var annotations: ArrayList<Annotations>? = null
 
         @SerializedName(value = "cashtags")
-        var cashtags: Array<Cashtags>? = null
+        var cashtags: ArrayList<Cashtags>? = null
 
         @SerializedName(value = "hashtags")
-        var hashtags: Array<Hashtags>? = null
+        var hashtags: ArrayList<Hashtags>? = null
 
         @SerializedName(value = "mentions")
-        var mentions: Array<Mentions>? = null
+        var mentions: ArrayList<Mentions>? = null
 
         @SerializedName(value = "urls")
-        var urls: Array<Urls>? = null
+        var urls: ArrayList<Urls>? = null
     }
 
     data class Geo(@SerializedName(value = "coordinates") var coordinates: Coordinates? = null,
@@ -407,7 +407,7 @@ data class Tweet(
     )
     {
         data class Coordinates(@SerializedName(value = "type") var type: String? = null){
-            @SerializedName(value = "coordinates") var coordinates: Array<String>? = null
+            @SerializedName(value = "coordinates") var coordinates: ArrayList<String>? = null
         }
     }
 
@@ -441,6 +441,6 @@ data class Tweet(
                                 @SerializedName(value = "id") var id: String? = null)
 
     data class Withheld(@SerializedName(value = "copyright") var copyright: Boolean = false, ){
-        @SerializedName(value = "country_codes") var countryCodes: Array<String>? = null
+        @SerializedName(value = "country_codes") var countryCodes: ArrayList<String>? = null
     }
 }

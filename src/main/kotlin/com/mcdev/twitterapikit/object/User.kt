@@ -175,7 +175,7 @@ data class User(
     var withheld: Withheld? = null
 
     data class Withheld(@SerializedName(value = "copyright") var copyright: Boolean = false, ){
-        @SerializedName(value = "country_codes") var countryCodes: Array<String>? = null
+        @SerializedName(value = "country_codes") var countryCodes: ArrayList<String>? = null
     }
 
     class Entities{
@@ -187,19 +187,19 @@ data class User(
 
         class Description {
             @SerializedName(value = "annotations")
-            var annotations: Array<Annotations>? = null
+            var annotations: ArrayList<Annotations>? = null
 
             @SerializedName(value = "cashtags")
-            var cashtags: Array<Cashtags>? = null
+            var cashtags: ArrayList<Cashtags>? = null
 
             @SerializedName(value = "hashtags")
-            var hashtags: Array<Hashtags>? = null
+            var hashtags: ArrayList<Hashtags>? = null
 
             @SerializedName(value = "mentions")
-            var mentions: Array<Mentions>? = null
+            var mentions: ArrayList<Mentions>? = null
 
             @SerializedName(value = "urls")
-            var urls: Array<Urls>? = null
+            var urls: ArrayList<Urls>? = null
         }
     }
 

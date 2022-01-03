@@ -5,5 +5,5 @@ import com.mcdev.twitterapikit.model.Errors
 
 class SingleTweet {
     var data: Tweet? = null
-    var errors: Array<Errors>? = null
+    var errors: ArrayList<Errors>? = null
 }

@@ -6,6 +6,6 @@ import com.mcdev.twitterapikit.`object`.Tweet
 
 
 class MultipleTweets {
-    var data: Array<Tweet>? = null
-    var errors: Array<Errors>? = null
+    var data: ArrayList<Tweet>? = null
+    var errors: ArrayList<Errors>? = null
 }
