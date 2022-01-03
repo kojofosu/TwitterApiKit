@@ -343,7 +343,7 @@ $dokka.location:com.mcdev.twitterapikit.object/Space/title/#/PointingToDeclarati
 $dokka.location:com.mcdev.twitterapikit.object/Space/topicIds/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-space/topic-ids.html
 $dokka.location:com.mcdev.twitterapikit.object/Space/updatedAt/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-space/updated-at.html
 $dokka.location:com.mcdev.twitterapikit.object/Tweet.Attachments///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-tweet/-attachments/index.html
-$dokka.location:com.mcdev.twitterapikit.object/Tweet.Attachments/Attachments/#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[kotlin.String]?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-tweet/-attachments/-attachments.html
+$dokka.location:com.mcdev.twitterapikit.object/Tweet.Attachments/Attachments/#java.util.ArrayList[kotlin.String]?#java.util.ArrayList[kotlin.String]?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-tweet/-attachments/-attachments.html
 $dokka.location:com.mcdev.twitterapikit.object/Tweet.Attachments/mediaKeys/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-tweet/-attachments/media-keys.html
 $dokka.location:com.mcdev.twitterapikit.object/Tweet.Attachments/pollIds/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-tweet/-attachments/poll-ids.html
 $dokka.location:com.mcdev.twitterapikit.object/Tweet.ContextAnnotations///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-tweet/-context-annotations/index.html
