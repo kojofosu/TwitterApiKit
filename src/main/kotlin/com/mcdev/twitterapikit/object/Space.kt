@@ -205,4 +205,12 @@ data class Space(
      * Keep information up to date.*/
     @SerializedName("updated_at")
     var updatedAt: String? = null
+
+    /**
+     * The user ID of the account that created this Space.
+     * This ID is returned as a string in order to avoid complications with languages and tools that cannot handle large integers.
+     * To return this field, add`space.fields=creator_id`in the request's query parameter.
+     * You can obtain the expanded object in includes.users by adding expansions=creator_id in the request's query parameter.*/
+    @SerializedName("creator_id")
+    var creatorId: String? = null
 }

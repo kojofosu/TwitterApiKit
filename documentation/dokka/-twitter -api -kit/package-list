@@ -110,15 +110,17 @@ $dokka.location:com.mcdev.twitterapikit.field/PollField.OPTIONS///PointingToDecl
 $dokka.location:com.mcdev.twitterapikit.field/PollField.VOTING_STATUS///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-poll-field/-v-o-t-i-n-g_-s-t-a-t-u-s/index.html
 $dokka.location:com.mcdev.twitterapikit.field/PollField///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-poll-field/index.html
 $dokka.location:com.mcdev.twitterapikit.field/PollField/value/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-poll-field/value.html
+$dokka.location:com.mcdev.twitterapikit.field/SpaceField.ALL///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-a-l-l/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.CREATED_AT///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-c-r-e-a-t-e-d_-a-t/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.CREATOR_ID///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-c-r-e-a-t-o-r_-i-d/index.html
+$dokka.location:com.mcdev.twitterapikit.field/SpaceField.DEFAULT///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-d-e-f-a-u-l-t/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.ENDED_AT///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-e-n-d-e-d_-a-t/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.HOST_IDS///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-h-o-s-t_-i-d-s/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.ID///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-i-d/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.INVITED_USER_IDS///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-i-n-v-i-t-e-d_-u-s-e-r_-i-d-s/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.IS_TICKETED///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-i-s_-t-i-c-k-e-t-e-d/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.LANG///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-l-a-n-g/index.html
-$dokka.location:com.mcdev.twitterapikit.field/SpaceField.PARTICIPANTS///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-p-a-r-t-i-c-i-p-a-n-t-s/index.html
+$dokka.location:com.mcdev.twitterapikit.field/SpaceField.PARTICIPANT_COUNT///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-p-a-r-t-i-c-i-p-a-n-t_-c-o-u-n-t/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.SCHEDULED_START///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-s-c-h-e-d-u-l-e-d_-s-t-a-r-t/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.SPEAKER_IDS///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-s-p-e-a-k-e-r_-i-d-s/index.html
 $dokka.location:com.mcdev.twitterapikit.field/SpaceField.STARTED_AT///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.field/-space-field/-s-t-a-r-t-e-d_-a-t/index.html
@@ -207,22 +209,45 @@ $dokka.location:com.mcdev.twitterapikit.model/EntityAnnotation/normalizedText/#/
 $dokka.location:com.mcdev.twitterapikit.model/EntityAnnotation/probability/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-entity-annotation/probability.html
 $dokka.location:com.mcdev.twitterapikit.model/EntityAnnotation/start/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-entity-annotation/start.html
 $dokka.location:com.mcdev.twitterapikit.model/EntityAnnotation/type/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-entity-annotation/type.html
+$dokka.location:com.mcdev.twitterapikit.model/Error///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-error/index.html
+$dokka.location:com.mcdev.twitterapikit.model/Error/Error/#kotlin.String?#kotlin.collections.List[com.mcdev.twitterapikit.model.Errors]?#kotlin.String?#kotlin.String?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-error/-error.html
+$dokka.location:com.mcdev.twitterapikit.model/Error/detail/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-error/detail.html
+$dokka.location:com.mcdev.twitterapikit.model/Error/errors/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-error/errors.html
+$dokka.location:com.mcdev.twitterapikit.model/Error/title/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-error/title.html
+$dokka.location:com.mcdev.twitterapikit.model/Error/type/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-error/type.html
 $dokka.location:com.mcdev.twitterapikit.model/Errors///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/index.html
-$dokka.location:com.mcdev.twitterapikit.model/Errors/Errors/#kotlin.String?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/-errors.html
+$dokka.location:com.mcdev.twitterapikit.model/Errors/Errors/#kotlin.String?#com.mcdev.twitterapikit.model.Parameters?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/-errors.html
 $dokka.location:com.mcdev.twitterapikit.model/Errors/detail/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/detail.html
 $dokka.location:com.mcdev.twitterapikit.model/Errors/field/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/field.html
+$dokka.location:com.mcdev.twitterapikit.model/Errors/message/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/message.html
 $dokka.location:com.mcdev.twitterapikit.model/Errors/parameter/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/parameter.html
+$dokka.location:com.mcdev.twitterapikit.model/Errors/parameters/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/parameters.html
 $dokka.location:com.mcdev.twitterapikit.model/Errors/resourceId/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/resource-id.html
 $dokka.location:com.mcdev.twitterapikit.model/Errors/resourceType/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/resource-type.html
 $dokka.location:com.mcdev.twitterapikit.model/Errors/section/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/section.html
-$dokka.location:com.mcdev.twitterapikit.model/Errors/title/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/title.html
 $dokka.location:com.mcdev.twitterapikit.model/Errors/type/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/type.html
 $dokka.location:com.mcdev.twitterapikit.model/Errors/value/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors/value.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/index.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX/ErrorsXXX/#kotlin.String?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/-errors-x-x-x.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX/detail/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/detail.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX/field/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/field.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX/parameter/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/parameter.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX/resourceId/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/resource-id.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX/resourceType/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/resource-type.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX/section/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/section.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX/title/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/title.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX/type/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/type.html
+$dokka.location:com.mcdev.twitterapikit.model/ErrorsXXX/value/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-errors-x-x-x/value.html
 $dokka.location:com.mcdev.twitterapikit.model/Hashtags///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-hashtags/index.html
 $dokka.location:com.mcdev.twitterapikit.model/Hashtags/Hashtags/#kotlin.Int#kotlin.Int?#kotlin.String?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-hashtags/-hashtags.html
 $dokka.location:com.mcdev.twitterapikit.model/Hashtags/end/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-hashtags/end.html
 $dokka.location:com.mcdev.twitterapikit.model/Hashtags/start/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-hashtags/start.html
 $dokka.location:com.mcdev.twitterapikit.model/Hashtags/tag/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-hashtags/tag.html
+$dokka.location:com.mcdev.twitterapikit.model/Includes///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-includes/index.html
+$dokka.location:com.mcdev.twitterapikit.model/Includes/Includes/#kotlin.collections.List[com.mcdev.twitterapikit.object.User]?#kotlin.collections.List[com.mcdev.twitterapikit.model.Topic]?#kotlin.collections.List[com.mcdev.twitterapikit.object.Tweet]/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-includes/-includes.html
+$dokka.location:com.mcdev.twitterapikit.model/Includes/topics/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-includes/topics.html
+$dokka.location:com.mcdev.twitterapikit.model/Includes/tweets/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-includes/tweets.html
+$dokka.location:com.mcdev.twitterapikit.model/Includes/users/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-includes/users.html
 $dokka.location:com.mcdev.twitterapikit.model/Mentions///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-mentions/index.html
 $dokka.location:com.mcdev.twitterapikit.model/Mentions/Mentions/#kotlin.String#kotlin.Int?#kotlin.Int?#kotlin.String?#kotlin.String?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-mentions/-mentions.html
 $dokka.location:com.mcdev.twitterapikit.model/Mentions/end/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-mentions/end.html
@@ -233,10 +258,28 @@ $dokka.location:com.mcdev.twitterapikit.model/Mentions/userName/#/PointingToDecl
 $dokka.location:com.mcdev.twitterapikit.model/Meta///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-meta/index.html
 $dokka.location:com.mcdev.twitterapikit.model/Meta/Meta/#kotlin.Int/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-meta/-meta.html
 $dokka.location:com.mcdev.twitterapikit.model/Meta/resultCount/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-meta/result-count.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/index.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/Parameters/#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[kotlin.String]?#kotlin.collections.List[kotlin.String]?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/-parameters.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/expansions/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/expansions.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/ids/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/ids.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/maxResults/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/max-results.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/paginationToken/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/pagination-token.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/query/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/query.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/spaceFields/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/space-fields.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/state/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/state.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/topicFields/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/topic-fields.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/userFields/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/user-fields.html
+$dokka.location:com.mcdev.twitterapikit.model/Parameters/userIds/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-parameters/user-ids.html
+$dokka.location:com.mcdev.twitterapikit.model/SpaceState.All///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-space-state/-all/index.html
 $dokka.location:com.mcdev.twitterapikit.model/SpaceState.LIVE///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-space-state/-l-i-v-e/index.html
 $dokka.location:com.mcdev.twitterapikit.model/SpaceState.SCHEDULED///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-space-state/-s-c-h-e-d-u-l-e-d/index.html
 $dokka.location:com.mcdev.twitterapikit.model/SpaceState///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-space-state/index.html
 $dokka.location:com.mcdev.twitterapikit.model/SpaceState/value/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-space-state/value.html
+$dokka.location:com.mcdev.twitterapikit.model/Topic///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-topic/index.html
+$dokka.location:com.mcdev.twitterapikit.model/Topic/Topic/#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-topic/-topic.html
+$dokka.location:com.mcdev.twitterapikit.model/Topic/description/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-topic/description.html
+$dokka.location:com.mcdev.twitterapikit.model/Topic/id/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-topic/id.html
+$dokka.location:com.mcdev.twitterapikit.model/Topic/name/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-topic/name.html
 $dokka.location:com.mcdev.twitterapikit.model/Urls///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-urls/index.html
 $dokka.location:com.mcdev.twitterapikit.model/Urls/Urls/#kotlin.String?#kotlin.Int?#kotlin.Int?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-urls/-urls.html
 $dokka.location:com.mcdev.twitterapikit.model/Urls/description/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.model/-urls/description.html
@@ -328,6 +371,7 @@ $dokka.location:com.mcdev.twitterapikit.object/Poll/votingStatus/#/PointingToDec
 $dokka.location:com.mcdev.twitterapikit.object/Space///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-space/index.html
 $dokka.location:com.mcdev.twitterapikit.object/Space/Space/#kotlin.String?#kotlin.String?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-space/-space.html
 $dokka.location:com.mcdev.twitterapikit.object/Space/createdAt/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-space/created-at.html
+$dokka.location:com.mcdev.twitterapikit.object/Space/creatorId/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-space/creator-id.html
 $dokka.location:com.mcdev.twitterapikit.object/Space/endedAt/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-space/ended-at.html
 $dokka.location:com.mcdev.twitterapikit.object/Space/hostIds/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-space/host-ids.html
 $dokka.location:com.mcdev.twitterapikit.object/Space/id/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-space/id.html
@@ -459,6 +503,27 @@ $dokka.location:com.mcdev.twitterapikit.object/User/url/#/PointingToDeclaration/
 $dokka.location:com.mcdev.twitterapikit.object/User/username/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-user/username.html
 $dokka.location:com.mcdev.twitterapikit.object/User/verified/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-user/verified.html
 $dokka.location:com.mcdev.twitterapikit.object/User/withheld/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.object/-user/withheld.html
+$dokka.location:com.mcdev.twitterapikit.response////PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/index.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseList///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-list/index.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseList/SpaceResponseList/#java.util.ArrayList[com.mcdev.twitterapikit.object.Space]?#com.mcdev.twitterapikit.model.Includes?#com.mcdev.twitterapikit.model.Meta?#java.util.ArrayList[com.mcdev.twitterapikit.model.Errors]?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Int?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-list/-space-response-list.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseList/data/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-list/data.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseList/detail/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-list/detail.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseList/errors/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-list/errors.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseList/includes/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-list/includes.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseList/meta/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-list/meta.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseList/status/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-list/status.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseList/title/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-list/title.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseList/type/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-list/type.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseSingle///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-single/index.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseSingle/SpaceResponseSingle/#com.mcdev.twitterapikit.object.Space?#com.mcdev.twitterapikit.model.Includes?#com.mcdev.twitterapikit.model.Meta?#java.util.ArrayList[com.mcdev.twitterapikit.model.Errors]?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Int?/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-single/-space-response-single.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseSingle/data/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-single/data.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseSingle/detail/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-single/detail.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseSingle/errors/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-single/errors.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseSingle/includes/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-single/includes.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseSingle/meta/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-single/meta.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseSingle/status/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-single/status.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseSingle/title/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-single/title.html
+$dokka.location:com.mcdev.twitterapikit.response/SpaceResponseSingle/type/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.response/-space-response-single/type.html
 $dokka.location:com.mcdev.twitterapikit.tweetlookup////PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.tweetlookup/index.html
 $dokka.location:com.mcdev.twitterapikit.tweetlookup/MultipleTweets///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.tweetlookup/-multiple-tweets/index.html
 $dokka.location:com.mcdev.twitterapikit.tweetlookup/MultipleTweets/MultipleTweets/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.tweetlookup/-multiple-tweets/-multiple-tweets.html
@@ -472,9 +537,15 @@ $dokka.location:com.mcdev.twitterapikit.tweetlookup/SingleTweetUserContext///Poi
 $dokka.location:com.mcdev.twitterapikit.tweetlookup/SingleTweetUserContext/SingleTweetUserContext/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.tweetlookup/-single-tweet-user-context/-single-tweet-user-context.html
 $dokka.location:com.mcdev.twitterapikit.tweetlookup/SingleTweetUserContext/data/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.tweetlookup/-single-tweet-user-context/data.html
 $dokka.location:com.mcdev.twitterapikit.tweetlookup/SingleTweetUserContext/errors/#/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit.tweetlookup/-single-tweet-user-context/errors.html
+$dokka.location:com.mcdev.twitterapikit////PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit/index.html
+$dokka.location:com.mcdev.twitterapikit/Application///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit/-application/index.html
+$dokka.location:com.mcdev.twitterapikit/Application/main/#java.lang.String[]/PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit/-application/main.html
+$dokka.location:com.mcdev.twitterapikit/UrlConstants///PointingToDeclaration/-twitter -api -kit/com.mcdev.twitterapikit/-url-constants/index.html
+com.mcdev.twitterapikit
 com.mcdev.twitterapikit.expansion
 com.mcdev.twitterapikit.field
 com.mcdev.twitterapikit.model
 com.mcdev.twitterapikit.object
+com.mcdev.twitterapikit.response
 com.mcdev.twitterapikit.tweetlookup
 

@@ -19,7 +19,30 @@ enum class SpaceField(val value: String) {
     UPDATED_AT("updated_at"),
     SCHEDULED_START("scheduled_start"),
     IS_TICKETED("is_ticketed"),
-    PARTICIPANTS("participants"),
+    PARTICIPANT_COUNT("participant_count"),
     ENDED_AT("ended_at"),
-    TOPIC_IDS("topic_ids")
+    TOPIC_IDS("topic_ids"),
+
+    /*All default fields*/
+    DEFAULT("${ID.value},${STATE.value}"),
+
+    /*All fields*/
+    ALL("${ID.value}," +
+            "${STATE.value}," +
+            "${HOST_IDS.value}," +
+            "${CREATED_AT.value}," +
+            "${CREATOR_ID.value}," +
+            "${LANG.value}," +
+            "${INVITED_USER_IDS.value}," +
+            "${SPEAKER_IDS.value},"  +
+            "${STARTED_AT.value}," +
+            "${TITLE.value}," +
+            "${UPDATED_AT.value}," +
+            "${SCHEDULED_START.value}," +
+            "${IS_TICKETED.value}," +
+            "${PARTICIPANT_COUNT.value}," +
+            "${ENDED_AT.value}," +
+            TOPIC_IDS.value
+    )
+
 }
