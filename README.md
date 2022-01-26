@@ -50,6 +50,9 @@ That's it! Now you can intialize object models and use them.
 
 ### 📙 [Documentation](https://kojofosu.github.io/TwitterApiKit/documentation/dokka/index.html)
 
+### Objects Tested and Ready
+- Spaces
+
 ## LICENSE
 ```
    Copyright 2021 KOJO FOSU BEMPA EDUE
