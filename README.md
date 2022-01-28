@@ -2,7 +2,7 @@
 ![Jitpack](https://img.shields.io/jitpack/v/github/kojofosu/TwitterApiKit?style=for-the-badge&color=2F9319)
 
 # TwitterApiKit
-✔️ This library is featured on the [Official Twitter Api Documentation Page](https://developer.twitter.com/en/docs/twitter-api/tools-and-libraries/v2)
+✔️ This library is featured on the [Official Twitter Api Documentation Page](https://developer.twitter.com/en/docs/twitter-api/tools-and-libraries/v2) and is still in development!
 
 Twitter's API v2 Objectified. This will save you time from creating data objects to access twitter's API v2. This library is supported on `Gradle`, `Maven`, `Java`, `Kotlin`, and `Android` projects. 
 
