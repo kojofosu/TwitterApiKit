@@ -1,6 +1,6 @@
 package com.mcdev.twitterapikit.response
 
-import com.mcdev.twitterapikit.`object`.Space
+import com.google.gson.annotations.SerializedName
 import com.mcdev.twitterapikit.`object`.Tweet
 import com.mcdev.twitterapikit.model.Errors
 import com.mcdev.twitterapikit.model.Includes
