@@ -2,7 +2,7 @@ package com.mcdev.twitterapikit.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Parameters(
+data class Parameter(
     @SerializedName(value = "user.fields")
     var userFields: List<String>?,
 

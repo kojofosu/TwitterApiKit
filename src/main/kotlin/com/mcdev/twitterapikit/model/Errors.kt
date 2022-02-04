@@ -6,8 +6,8 @@ data class Errors(
     @SerializedName(value = "message")
     val message: String?,
 
-    @SerializedName(value = "parameters")
-    val parameters: Parameters?,
+    @SerializedName(value = "parameter")
+    val parameters: Parameter?,
 
     @SerializedName(value = "detail")
     var detail: String?,
