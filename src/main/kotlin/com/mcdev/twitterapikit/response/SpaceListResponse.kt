@@ -6,9 +6,9 @@ import com.mcdev.twitterapikit.model.Errors
 import com.mcdev.twitterapikit.model.Includes
 import com.mcdev.twitterapikit.model.Meta
 
-data class SpaceResponseSingle (
+data class SpaceListResponse (
     @SerializedName(value = "data")
-    var `data`: Space?,
+    var `data`: ArrayList<Space>?,
 
     @SerializedName(value = "includes")
     var includes: Includes?,
