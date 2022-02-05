@@ -23,10 +23,10 @@ enum class SpaceField(val value: String) {
     ENDED_AT("ended_at"),
     TOPIC_IDS("topic_ids"),
 
-    /*All default fields*/
+    /**All default fields*/
     DEFAULT("${ID.value},${STATE.value}"),
 
-    /*All fields*/
+    /**All fields*/
     ALL("${ID.value}," +
             "${STATE.value}," +
             "${HOST_IDS.value}," +
