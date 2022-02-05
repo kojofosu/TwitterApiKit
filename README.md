@@ -6,6 +6,8 @@
 
 Twitter's API v2 Objectified. This will save you time from creating data objects to access twitter's API v2. This library is supported on `Gradle`, `Maven`, `Java`, `Kotlin`, and `Android` projects. 
 
+`NOTE` : Twitter's API v2 is fairly new and keeps changing, so this library may also change to stay updated with the new changes made by the Twitter team. 
+To contribute, you can fork this repo and make a pull request after.
 ## Setup
 ### Gradle
 Step 1: Add the Jitpack repository to your build file. Add it in your root `build.gradle` at the end of repositories.
