@@ -45,7 +45,7 @@ data class Poll(
      * "duration_minutes": 1440
      * ```*/
     @SerializedName(value ="duration_minutes")
-    var duration: Int = 0
+    var durationMinutes: Int? = 0
 
     /**
      * Specifies the end date and time for this poll.

@@ -38,7 +38,7 @@ data class Media(
      * "duration_ms": 46947
      * ```*/
     @SerializedName(value = "duration_ms")
-    var duration: Int = 0
+    var durationMs: Int? = 0
 
     /**
      * Height of this content in pixels.
@@ -48,7 +48,7 @@ data class Media(
      * "height": 1080
      * ```*/
     @SerializedName(value = "height")
-    var height: Int = 0
+    var height: Int? = 0
 
     /**
      * Non-public engagement metrics for the media content at the time of the request.

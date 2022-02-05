@@ -28,4 +28,52 @@ enum class TweetField(val value: String) {
     ORGANIC_METRICS("organic_metrics"),
     POSSIBLY_SENSITIVE("possibly_sensitive"),
     PROMOTED_METRICS("promoted_metrics"),
+
+    /**All default fields*/
+    DEFAULT("${ID.value},${TEXT.value}"),
+
+    /**All non premium fields*/
+    ALL_DEFAULT("${ID.value}," +
+            "${TEXT.value}," +
+            "${ATTACHMENTS.value}," +
+            "${AUTHOR_ID.value}," +
+            "${CONTEXT_ANNOTATIONS.value}," +
+            "${CONVERSATION_ID.value}," +
+            "${CREATED_AT.value}," +
+            "${ENTITIES.value}," +
+            "${GEO.value}," +
+            "${IN_REPLY_TO_USER_ID.value}," +
+            "${LANG.value}," +
+            "${PUBLIC_METRICS.value}," +
+            "${REFERENCED_TWEETS.value}," +
+            "${REPLY_SETTINGS.value}," +
+            "${SOURCE.value}," +
+            WITHHELD.value
+    ),
+
+    /**
+     * All Fields including premium fields.
+     *
+     * OAuth1.0a User Context authorization required if this is  included in the request*/
+    ALL("${ID.value}," +
+            "${TEXT.value}," +
+            "${ATTACHMENTS.value}," +
+            "${AUTHOR_ID.value}," +
+            "${CONTEXT_ANNOTATIONS.value}," +
+            "${CONVERSATION_ID.value}," +
+            "${CREATED_AT.value}," +
+            "${ENTITIES.value}," +
+            "${GEO.value}," +
+            "${IN_REPLY_TO_USER_ID.value}," +
+            "${LANG.value}," +
+            "${PUBLIC_METRICS.value}," +
+            "${REFERENCED_TWEETS.value}," +
+            "${REPLY_SETTINGS.value}," +
+            "${SOURCE.value}," +
+            "${WITHHELD.value}," +
+            "${NON_PUBLIC_METRICS.value}," +
+            "${ORGANIC_METRICS.value}," +
+            "${POSSIBLY_SENSITIVE.value}," +
+            PROMOTED_METRICS.value
+    )
 }
