@@ -7,6 +7,8 @@ import com.mcdev.twitterapikit.model.Errors
 import com.mcdev.twitterapikit.model.Includes
 import com.mcdev.twitterapikit.model.Meta
 
+/**
+ * Returns a list of spaces*/
 data class SpaceListResponse (
     @SerializedName(value = "data")
     var `data`: ArrayList<Space>?,
