@@ -7,6 +7,8 @@ import com.mcdev.twitterapikit.model.Errors
 import com.mcdev.twitterapikit.model.Includes
 import com.mcdev.twitterapikit.model.Meta
 
+/**
+ * Returns a single tweet response*/
 data class TweetSingleResponse
     (
     @SerializedName(value = "data")

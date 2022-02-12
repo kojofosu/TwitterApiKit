@@ -178,44 +178,53 @@ data class User(
         @SerializedName(value = "country_codes") var countryCodes: ArrayList<String>? = null
     }
 
-    class Entities{
+    data class Entities(
         @SerializedName(value = "url")
-        var url: Urls? = null
+        var url: Url?,
 
         @SerializedName(value = "description")
-        var description: Description? = null
+        var description: Description?
 
-        class Description {
+    ){
+        data class Url(
+            @SerializedName(value = "urls")
+            var urls: ArrayList<Urls>?
+        )
+
+
+        data class Description (
             @SerializedName(value = "annotations")
-            var annotations: ArrayList<Annotations>? = null
+            var annotations: ArrayList<Annotations>?,
 
             @SerializedName(value = "cashtags")
-            var cashtags: ArrayList<Cashtags>? = null
+            var cashtags: ArrayList<Cashtags>?,
 
             @SerializedName(value = "hashtags")
-            var hashtags: ArrayList<Hashtags>? = null
+            var hashtags: ArrayList<Hashtags>?,
 
             @SerializedName(value = "mentions")
-            var mentions: ArrayList<Mentions>? = null
+            var mentions: ArrayList<Mentions>?,
 
             @SerializedName(value = "urls")
-            var urls: ArrayList<Urls>? = null
-        }
+            var urls: ArrayList<Urls>?
+        )
     }
 
-    class PublicMetrics{
+
+
+    data class PublicMetrics(
         @SerializedName(value = "followers_count")
-        var followersCount: Long = 0
+        var followersCount: Long = 0,
 
         @SerializedName(value = "following_count")
-        var followingCount: Long = 0
+        var followingCount: Long = 0,
 
         @SerializedName(value = "tweet_count")
-        var tweetCount: Long = 0
+        var tweetCount: Long = 0,
 
         @SerializedName(value = "listed_count")
         var listedCount: Long = 0
-    }
+    )
 
 }
 

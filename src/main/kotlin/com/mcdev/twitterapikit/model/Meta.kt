@@ -13,5 +13,9 @@ data class Meta(
     var oldestId: String?,
 
     @SerializedName(value = "next_token")
-    var nextToken: String?
+    var nextToken: String?,
+
+    @SerializedName(value = "previous_token")
+    var previousToken: String?
+
 )
