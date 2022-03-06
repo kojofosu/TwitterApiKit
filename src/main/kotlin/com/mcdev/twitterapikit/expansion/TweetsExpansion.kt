@@ -11,5 +11,17 @@ enum class TweetsExpansion(val value: String) {
     IN_REPLY_TO_USER_ID("in_reply_to_user_id"),
     REFERENCED_TWEETS_ID("referenced_tweets.id"),
     ENTITIES_MENTIONS_USERNAME("entities.mentions.username"),
-    REFERENCED_TWEETS_ID_AUTHOR_ID("referenced_tweets.id.author_id")
+    REFERENCED_TWEETS_ID_AUTHOR_ID("referenced_tweets.id.author_id"),
+
+    /**All tweet expansions*/
+    ALL(
+        "${ATTACHMENTS_POLL_IDS.value}," +
+                "${ATTACHMENTS_MEDIA_KEYS.value}," +
+                "${AUTHOR_ID.value}," +
+                "${GEO_PLACE_ID.value}," +
+                "${IN_REPLY_TO_USER_ID.value}," +
+                "${REFERENCED_TWEETS_ID.value}," +
+                "${ENTITIES_MENTIONS_USERNAME.value}," +
+                REFERENCED_TWEETS_ID_AUTHOR_ID.value
+    )
 }
