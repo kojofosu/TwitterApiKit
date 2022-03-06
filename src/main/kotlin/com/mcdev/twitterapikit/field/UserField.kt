@@ -19,5 +19,26 @@ enum class UserField(val value: String) {
     PUBLIC_METRICS("public_metrics"),
     URL("url"),
     VERIFIED("verified"),
-    WITHHELD("withheld")
+    WITHHELD("withheld"),
+
+    /**All default fields*/
+    DEFAULT("${ID.value},${NAME.value},${USERNAME.value}"),
+
+    /**All fields*/
+    ALL(
+        "${ID.value}," +
+                "${NAME.value}," +
+                "${USERNAME.value}," +
+                "${CREATED_AT}," +
+                "${DESCRIPTION.value}," +
+                "${ENTITIES.value}," +
+                "${LOCATION.value}," +
+                "${PINNED_TWEET_ID.value}," +
+                "${PROFILE_IMAGE_URL.value}," +
+                "${PROTECTED.value}," +
+                "${PUBLIC_METRICS.value}," +
+                "${URL.value}," +
+                "${VERIFIED.value}," +
+                WITHHELD.value
+    )
 }

@@ -6,5 +6,11 @@ enum class TopicField(val value: String) {
     /*Allowed values*/
     ID("id"),
     NAME("name"),
-    DESCRIPTION("description")
+    DESCRIPTION("description"),
+
+    ALL(
+        "${ID.value}," +
+                "${NAME.value}," +
+                DESCRIPTION.value
+    )
 }

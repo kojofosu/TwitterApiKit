@@ -15,4 +15,17 @@ enum class PlaceField(val value: String) {
     GEO("geo"),
     NAME("name"),
     PLACE_TYPE("place_type"),
+
+    DEFAULT("${ID.value},${FULL_NAME.value}"),
+
+    ALL(
+        "${ID.value}," +
+                "${FULL_NAME.value}," +
+                "${CONTAINED_WITHIN.value}," +
+                "${COUNTRY.value}," +
+                "${COUNTRY_CODE.value}," +
+                "${GEO.value}," +
+                "${NAME.value}," +
+                PLACE_TYPE.value
+    )
 }

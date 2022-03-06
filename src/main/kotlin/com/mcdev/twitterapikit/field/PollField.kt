@@ -11,5 +11,16 @@ enum class PollField(val value: String) {
     /*Allowed Values*/
     DURATION_MINUTES("duration_minutes"),
     END_DATETIME("end_datetime"),
-    VOTING_STATUS("voting_status")
+    VOTING_STATUS("voting_status"),
+
+    /**All default fields*/
+    DEFAULT("${ID.value},${OPTIONS.value}"),
+
+    ALL(
+        "${ID.value}," +
+                "${OPTIONS.value}," +
+                "${DURATION_MINUTES.value}," +
+                "${END_DATETIME.value}," +
+                VOTING_STATUS.value
+    )
 }

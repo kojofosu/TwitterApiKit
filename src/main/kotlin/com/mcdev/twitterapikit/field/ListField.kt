@@ -13,5 +13,19 @@ enum class ListField(val value: String) {
     MEMBER_COUNT("member_count"),
     PRIVATE("private"),
     DESCRIPTION("description"),
-    OWNER_ID("owner_id")
+    OWNER_ID("owner_id"),
+
+    /**All default fields*/
+    DEFAULT("${ID.value},${NAME.value}"),
+
+    /**All fields*/
+    ALL("${ID.value}," +
+            "${NAME.value}," +
+            "${CREATED_AT.value}," +
+            "${FOLLOWER_COUNT.value}," +
+            "${MEMBER_COUNT.value}," +
+            "${PRIVATE.value}," +
+            "${DESCRIPTION.value}," +
+            OWNER_ID.value
+    )
 }
