@@ -13,7 +13,6 @@ data class Errors(
     var detail: String?,
 
     @SerializedName(value = "resource_type")
-
     var resourceType: String?,
 
     @SerializedName(value = "parameter")

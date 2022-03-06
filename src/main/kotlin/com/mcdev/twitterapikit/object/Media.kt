@@ -222,9 +222,9 @@ data class Media(
         var viewCount: Int = 0
     }
 
-    class PublicMetrics{
+    data class PublicMetrics(
         @SerializedName(value = "view_count")
         var viewCount: Int = 0
-    }
+    )
 }
 

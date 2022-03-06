@@ -8,6 +8,18 @@ Twitter's API v2 Objectified. This will save you time from creating data objects
 
 `NOTE` : Twitter's API v2 is fairly new and keeps changing, so this library may also change to stay updated with the new changes made by the Twitter team. 
 To contribute, you can fork this repo and make a pull request after.
+
+
+## Objects Tested and Ready
+- [x] Spaces
+- [x] Tweets
+- [x] Users
+- [ ] List
+- [ ] Poll
+- [ ] Media
+- [ ] Place
+
+
 ## Setup
 ### Gradle
 Step 1: Add the Jitpack repository to your build file. Add it in your root `build.gradle` at the end of repositories.
@@ -52,8 +64,6 @@ That's it! Now you can intialize object models and use them.
 
 ### 📙 [Documentation](https://kojofosu.github.io/TwitterApiKit/documentation/dokka/index.html)
 
-### Objects Tested and Ready
-- Spaces
 
 ## LICENSE
 ```
